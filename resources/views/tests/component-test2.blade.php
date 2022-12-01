@@ -1,4 +1,5 @@
 <x-tests.app>
+    <x-slot name="header">ヘッダー２</x-slot>
     コンポーネントテスト2
-    3テーブル以上の表をOUTER JOINしたい場合、どのようにSQL文を記述すればよいですか？ 
+    3テーブル以上
 </x-tests.app>
