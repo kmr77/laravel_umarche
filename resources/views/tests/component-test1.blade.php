@@ -4,4 +4,5 @@
 
     <x-tests.card title="たいとる" content="本文" :message="$message" />
     <x-tests.card title="たいとる2" />
+    <x-tests.card title="CSSを変更したい" class="bg-red-300" />
 </x-tests.app>
