@@ -9,7 +9,7 @@
       <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="{{ $modal }}-title">
         <header class="modal__header">
           <h2 class="text-xl text-gray-700" id="{{ $modal }}-title">
-            Micromodal
+            ファイルを選択してください
           </h2>
           <button type="button" class="modal__close" aria-label="Close modal" data-micromodal-close></button>
         </header>
@@ -18,7 +18,7 @@
                 @foreach ($images as $image)
                 <div class="w-1/4 p-2 md:p-4">
                     <div class="border rounded-md p-2 md:p-4">
-                        <img class=“image” data-id="{{ $name }}_{{ $image->id }}"
+                        <img class="image" data-id="{{ $name }}_{{ $image->id }}"
                             data-file="{{ $image->filename }}"
                             data-path="{{ asset('storage/products/') }}"
                             data-modal="{{ $modal }}" src="{{ asset('storage/products/' . $image->filename)}}" >
@@ -45,4 +45,4 @@
     </div>
 </div>
 
-  <input id="{{ $name}}_hidden" type="hidden" name="{{ $name }}" value="">
+  <input id="{{ $name }}_hidden" type="hidden" name="{{ $name }}" value="">
