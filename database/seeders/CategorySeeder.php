@@ -42,16 +42,21 @@ class CategorySeeder extends Seeder
             [
                 'name' => 'バッグ・ランドセル',
                 'sort_order' => 3,
-                'primary_category_id' => 2
+                'primary_category_id' => 1
             ],
             [
-                'name' => 'メモリアル・記念品',
+                'name' => 'ギフトセット',
                 'sort_order' => 4,
                 'primary_category_id' => 2
             ],
             [
-                'name' => 'おむつケーキ',
+                'name' => 'メモリアル・記念品',
                 'sort_order' => 5,
+                'primary_category_id' => 2
+            ],
+            [
+                'name' => 'おむつケーキ',
+                'sort_order' => 6,
                 'primary_category_id' => 2
             ],
         ]);
