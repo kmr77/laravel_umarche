@@ -145,6 +145,10 @@
   .micromodal-slide .modal__overlay {
     will-change: transform;
   }
+.swiper {
+    /* width: 600px; */
+    height: 300px;
+  }
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 *//*
@@ -884,14 +888,11 @@ select {
 .ml-4 {
   margin-left: 1rem;
 }
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 .mr-3 {
   margin-right: 0.75rem;
-}
-.ml-auto {
-  margin-left: auto;
 }
 .mr-2 {
   margin-right: 0.5rem;
@@ -914,11 +915,11 @@ select {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mb-4 {
-  margin-bottom: 1rem;
-}
 .mb-8 {
   margin-bottom: 2rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 .mt-1 {
   margin-top: 0.25rem;
