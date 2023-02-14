@@ -75,17 +75,13 @@ class CartController extends Controller
                 array_push($lineItems, $lineItem);
             }
         }
-        // dd($lineItems);
-
         foreach($products as $product){
             Stock::create([
                 'product_id' => $product->id,
                 'type' => \Constant::PRODUCT_LIST['reduce'],
-                'quantity' => $product->pivot->quantity * -1,
+                'quantity' => $product->pivot->quantity * -1
             ]);
         }
-
-        dd('test');
 
         \Stripe\Stripe::setApiKey(env('STRIPE_SECRET_KEY'));
 
