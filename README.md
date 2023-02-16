@@ -31,6 +31,7 @@ php artisan migrate:fresh --seed
 
 と実行してください。(データベーステーブルとダミーデータが追加されればOK)
 
+
 最後に
 Php artisan key:generate
 と入力してキーを生成後、
