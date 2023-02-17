@@ -29,7 +29,7 @@ class TestMail extends Mailable
     public function build()
     {
         return $this
-        ->subject('テスト送信完了')
+        ->subject('非同期テスト送信完了')
         ->view('emails.test');
     }
 }
